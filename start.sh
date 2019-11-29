@@ -1,0 +1,1 @@
+npx wiremock --root-dir ./mock --port 8081

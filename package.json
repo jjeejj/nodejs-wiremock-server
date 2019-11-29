@@ -1,0 +1,17 @@
+{
+  "name": "nodejs-wiremock-server",
+  "version": "1.0.0",
+  "description": "nodejs wiremock server",
+  "scripts": {
+    "server": "npx wiremock --root-dir ./mock --port 8081"
+  },
+  "keywords": [
+    "mock",
+    "nodejs"
+  ],
+  "author": "yibu",
+  "license": "ISC",
+  "dependencies": {
+    "wiremock": "^2.25.1"
+  }
+}
