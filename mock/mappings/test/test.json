@@ -1,0 +1,21 @@
+{
+    "request": {
+        "method": "GET",
+        "urlPathPattern": "/api/getBook/([a-z]*)",
+        "queryParameters": {
+            "name": {
+                "matches": "[a-z]"
+            },
+            "price": {
+                "matches": "[0-5]"
+            }
+        }
+    },
+    "response": {
+        "status": 200,
+        "headers": {
+            "Content-type": "application/json; charset=utf-8"
+        },
+        "bodyFileName": "test/bookDetails.json"
+    }
+}
